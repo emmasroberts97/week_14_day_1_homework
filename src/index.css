@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://www.pandaebikes.com/wp-content/uploads/2015/06/colour-background.png');
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+h3, p{
+  display: flex;
+  justify-content: center;
+}
+
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
